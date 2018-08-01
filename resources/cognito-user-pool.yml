@@ -10,7 +10,8 @@ Resources:
       AutoVerifiedAttributes:
         - email
       VerificationMessageTemplate:
-        - DefaultEmailOption: CONFIRM_WITH_LINK
+        DefaultEmailOption: CONFIRM_WITH_LINK
+      
 
 
   CognitoUserPoolClient:
