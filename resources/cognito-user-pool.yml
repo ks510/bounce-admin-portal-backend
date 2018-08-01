@@ -9,6 +9,9 @@ Resources:
         - email
       AutoVerifiedAttributes:
         - email
+      # no support for setting email verification by link, set manually from aws console
+
+
 
   CognitoUserPoolClient:
     Type: AWS::Cognito::UserPoolClient
