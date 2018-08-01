@@ -9,6 +9,9 @@ Resources:
         - email
       AutoVerifiedAttributes:
         - email
+      VerificationMessageTemplate:
+        - DefaultEmailOption: CONFIRM_WITH_LINK
+
 
   CognitoUserPoolClient:
     Type: AWS::Cognito::UserPoolClient
