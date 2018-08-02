@@ -10,7 +10,22 @@ Resources:
       AutoVerifiedAttributes:
         - email
       # no support for setting email verification by link, set manually from aws console
-
+      Schema:
+        - Mutable: True
+          Name: email
+          Required: True
+        - AttributeDataType: String
+          Mutable: False
+          Name: given_name
+          Required: True
+        - AttributeDataType: String
+          Mutable: False
+          Name: family_name
+          Required: True
+        - AttributeDataType: String
+          Mutable: False
+          Name: company_name
+          Required: False
 
 
   CognitoUserPoolClient:
