@@ -18,15 +18,15 @@ Resources:
         - AttributeDataType: "String"
           Mutable: False
           Name: given_name
-          Required: False
+          Required: True
         - AttributeDataType: "String"
           Mutable: False
           Name: family_name
-          Required: False
+          Required: True
         - AttributeDataType: "String"
           Mutable: False
           Name: company_name
-          Required: False
+          Required: True
 
 
   CognitoUserPoolClient:
