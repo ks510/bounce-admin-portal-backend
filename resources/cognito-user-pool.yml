@@ -26,7 +26,7 @@ Resources:
         - AttributeDataType: "String"
           Mutable: False
           Name: company_name
-          Required: True
+          Required: False
 
 
   CognitoUserPoolClient:
