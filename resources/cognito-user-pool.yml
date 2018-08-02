@@ -23,9 +23,8 @@ Resources:
           Name: family_name
           Required: True
         - AttributeDataType: String
-          Mutable: False
-          Name: company_name
-          Required: False
+          Mutable: True
+          Name: "company_name"
 
 
   CognitoUserPoolClient:
