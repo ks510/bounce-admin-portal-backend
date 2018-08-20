@@ -11,7 +11,7 @@ export async function main(event, context, callback) {
     // subscribing to Bounce premium plan, assuming customer payment method is alraedy stored
     const subscription = await stripe.subscriptions.create({
       customer,
-      items: [{plan: 'plan_DPt2YPYzphRe5S'}],
+      items: [{plan: 'plan_DS9WLM1FDoHCli'}],
     });
 
     console.log(subscription);
