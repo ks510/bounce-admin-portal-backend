@@ -25,6 +25,9 @@ Resources:
         - AttributeDataType: String
           Mutable: True
           Name: "company_name"
+        - AttributeDataType: Number
+          Mutable: True
+          Name: "customer_ID"
 
 
   CognitoUserPoolClient:

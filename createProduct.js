@@ -12,8 +12,8 @@ export async function main(event, context, callback) {
       name,
       type,
     });
-    console.log(product);
-    callback(null, success({ status: true }));
+
+    callback(null, success({ productID: product["id"] }));
   } catch (e) {
     callback(null, failure({ message: e.message }));
   }

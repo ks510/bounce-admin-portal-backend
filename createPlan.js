@@ -15,8 +15,8 @@ export async function main(event, context, callback) {
       interval,
       amount,
     });
-    console.log(plan);
-    callback(null, success({ status: true }));
+
+    callback(null, success({ planID: plan["id"]} ));
   } catch (e) {
     callback(null, failure({ message: e.message }));
   }

@@ -1,5 +1,5 @@
 {
-  "body": "{\"customer\":\"cus_DS8r8huIVsVnPd\"}",
+  "body": "{\"customer\":\"cus_DS8r8huIVsVnPd\",\"planID\":\"plan_DS9WLM1FDoHCli\"}",
   "requestContext": {
     "identity": {
       "cognitoIdentityId": "USER-SUB-1234"
