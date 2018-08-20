@@ -1,0 +1,8 @@
+{
+  "body": "{\"email\":\"karen@bouncebot.io\"}",
+  "requestContext": {
+    "identity": {
+      "cognitoIdentityId": "USER-SUB-1234"
+    }
+  }
+}

@@ -126,6 +126,16 @@ functions:
           cors: true
           authorizer: aws_iam
 
+  createCustomer:
+    handler: createCustomer.main
+    events:
+      - http:
+          path: createCustomer
+          method: post
+          cors: true
+          authorizer: aws_iam
+
+
 # Create our resources with separate CloudFormation templates
 resources:
   # DynamoDB
