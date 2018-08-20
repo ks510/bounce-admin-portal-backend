@@ -144,6 +144,24 @@ functions:
           cors: true
           authorizer: aws_iam
 
+  createProduct:
+    handler: createProduct.main
+    events:
+      - http:
+          path: createProduct
+          method: post
+          cors: true
+          authorizer: aws_iam
+
+  createPlan:
+    handler: createPlan.main
+    events:
+      - http:
+          path: createPlan
+          method: post
+          cors: true
+          authorizer: aws_iam
+
 
 # Create our resources with separate CloudFormation templates
 resources:

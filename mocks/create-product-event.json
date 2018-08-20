@@ -1,0 +1,8 @@
+{
+  "body": "{\"name\":\"Bounce Premium\",\"type\":\"service\"}",
+  "requestContext": {
+    "identity": {
+      "cognitoIdentityId": "USER-SUB-1234"
+    }
+  }
+}
