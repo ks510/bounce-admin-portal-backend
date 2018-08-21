@@ -1,5 +1,5 @@
 {
-  "body": "{\"customer\":\"cus_DS8r8huIVsVnPd\",\"token\":tok_visa}",
+  "body": "{\"customer\":\"cus_DS8r8huIVsVnPd\",\"token\":\"tok_visa\"}",
   "requestContext": {
     "identity": {
       "cognitoIdentityId": "USER-SUB-1234"
