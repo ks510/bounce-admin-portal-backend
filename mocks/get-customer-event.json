@@ -1,0 +1,8 @@
+{
+  "body": "{\"customer\":\"cus_DS8r8huIVsVnPd\"}",
+  "requestContext": {
+    "identity": {
+      "cognitoIdentityId": "USER-SUB-1234"
+    }
+  }
+}
