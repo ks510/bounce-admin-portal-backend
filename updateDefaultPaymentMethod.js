@@ -6,7 +6,7 @@ export async function main(event, context, callback) {
 
   // Load our secret key from the  environment variables
   const stripe = stripePackage(process.env.stripeSecretKey);
-
+  console.log("Updating customer payment...");
   try {
     // subscribing to Bounce premium plan, assuming customer payment method is already stored
     // customer should only subscribe to one plan at a time
