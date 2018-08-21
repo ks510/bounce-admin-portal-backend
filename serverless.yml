@@ -176,7 +176,7 @@ functions:
     events:
       - http:
           path: getCustomer
-          method: get
+          method: post
           cors: true
           authorizer: aws_iam
 
