@@ -180,6 +180,14 @@ functions:
           cors: true
           authorizer: aws_iam
 
+  cancelSubscription:
+    handler: cancelSubscription.main
+    events:
+      - http:
+          path: cancelSubscription
+          method: post
+          cors: true
+          authorizer: aws_iam
 
 
 # Create our resources with separate CloudFormation templates
