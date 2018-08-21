@@ -14,7 +14,7 @@ export async function main(event, context, callback) {
     );
 
     if (stripeCustomer) {
-      // Return the retrieved csutomer
+      // Return the retrieved customer
       callback(null, success(stripeCustomer));
     } else {
       callback(null, failure({ status: false, error: "Customer not found." }));
