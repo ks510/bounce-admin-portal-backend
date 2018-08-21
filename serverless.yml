@@ -171,6 +171,16 @@ functions:
           cors: true
           authorizer: aws_iam
 
+  getCustomer:
+    handler: getCustomer.main
+    events:
+      - http:
+          path: getCustomer
+          method: get
+          cors: true
+          authorizer: aws_iam
+
+
 
 # Create our resources with separate CloudFormation templates
 resources:
