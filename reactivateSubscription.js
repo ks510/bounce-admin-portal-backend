@@ -13,7 +13,7 @@ export async function main(event, context, callback) {
     });
 
     // return newly created customer ID
-    callback(null, success({ reactivate_subscription: subscription }));
+    callback(null, success({ reactivated_subscription: subscription }));
   } catch (e) {
     callback(null, failure({ message: e.message }));
   }

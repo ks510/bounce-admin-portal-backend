@@ -1,0 +1,8 @@
+{
+  "body": "{\"subscription\":\"sub_DS9XTOKoVOeEM5\"}",
+  "requestContext": {
+    "identity": {
+      "cognitoIdentityId": "USER-SUB-1234"
+    }
+  }
+}
