@@ -8,12 +8,12 @@ export async function main(event, context, callback) {
   const stripe = stripePackage(process.env.stripeSecretKey);
 
   try {
-    await stripe.subscriptions.update(subscription, {
-      cancel_at_period_end: true
+    const response = await stripe.subscriptions.update(subscription, {
+      cancel_at_period_end: false
     });
 
     // return newly created customer ID
-    callback(null, success({ reactivated_subscription: subscription }));
+    callback(null, success(response));
   } catch (e) {
     callback(null, failure({ message: e.message }));
   }
