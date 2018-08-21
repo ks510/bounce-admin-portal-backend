@@ -13,7 +13,7 @@ export async function main(event, context, callback) {
       customer
     );
 
-    callback(null, success({ message: "Retrieved customer"));
+    callback(null, success({ stripeCustomer }));
   } catch (e) {
     callback(null, failure({ message: e.message }));
   }
