@@ -135,15 +135,6 @@ functions:
           cors: true
           authorizer: aws_iam
 
-  updateDefaultPaymentMethod:
-    handler: updateDefaultPaymentMethod.main
-    events:
-      - http:
-          path: updateDefaultPaymentMethod
-          method: post
-          cors: true
-          authorizer: aws_iam
-
   subscribe:
     handler: subscribe.main
     events:
@@ -171,6 +162,14 @@ functions:
           cors: true
           authorizer: aws_iam
 
+  updateDefaultPaymentMethod:
+    handler: updateDefaultPaymentMethod.main
+    events:
+      - http:
+          path: updateDefaultPaymentMethod
+          method: post
+          cors: true
+          authorizer: aws_iam
 
 # Create our resources with separate CloudFormation templates
 resources:
