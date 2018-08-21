@@ -189,6 +189,15 @@ functions:
           cors: true
           authorizer: aws_iam
 
+  reactivateSubscription:
+    handler: reactivateSubscription.main
+    events:
+      - http:
+          path: reactivateSubscription
+          method: post
+          cors: true
+          authorizer: aws_iam
+
 
 # Create our resources with separate CloudFormation templates
 resources:
